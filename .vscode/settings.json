@@ -8,6 +8,7 @@
   "python.linting.pylintArgs": [
       "--disable=C0111"
   ],
+  
   "emeraldwalk.runonsave": {
       "autoClearConsole": true,
       "commands": [
@@ -31,7 +32,9 @@
           //     "cmd": "${fileDirname}\\..\\..\\.venv\\Scripts\\activate.bat && python ${fileDirname}\\..\\..\\test1.py ${file}",
           // }
       ]
+      
   },
+  
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 3000
 }
